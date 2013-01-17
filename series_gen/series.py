@@ -2,7 +2,7 @@
 # a generator.
 
 def adder():
-    n = 0
-    while 1:
-        n += 1
-        yield n
+    n = 0 #2
+    while 1: #3 #8 #13
+        n += 1 #4 #9 #14
+        yield n #5 #10 #15
